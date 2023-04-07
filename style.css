@@ -55,7 +55,6 @@ section {
     padding-bottom: 10vh;
     line-height: 1.5em;
     padding-left: 25px;
-    font-size: 1em;
     background-size: cover;
 }
 
@@ -75,6 +74,7 @@ section.imagem {
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.87);
     background-attachment: fixed;
+    
 }
 
 section.imagem > p {
@@ -82,21 +82,21 @@ section.imagem > p {
     background-color: rgba(0, 0, 0, 0.329);
     padding: 5px;
     text-shadow: 1px 1px 0px black;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 section#img01 {
     background-image: url(imagens/tenma-m.jpg);
     background-repeat: no-repeat;
-    
+    background-position: center;
 }
 
 section#img02 {
     background-image: url(imagens/johan-m.jpg);
-      
+    background-position: center;  
 }
 
-section#img03 {
+section#fim {
     background-color: black;
     text-align: center;
 }
