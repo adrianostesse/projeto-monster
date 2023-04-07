@@ -53,17 +53,29 @@ a:hover {
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 1.5em;
+    line-height: 1.7em;
     padding-left: 25px;
     background-size: cover;
+    
 }
 
 section.sinopse {
     background-color: white;
     padding-bottom: 0px;
     padding-top: 50px;
+    font-size: 1.2em;
 }
 
+section.normal > p {
+    max-width: 700px;
+    padding-right: 10px;
+    font-size: 1.2em;
+}
+
+section.sinopse > p {
+    max-width: 700px;
+    padding-right: 10px;
+}
 section.normal {
     background-color: white;
     color: black;
